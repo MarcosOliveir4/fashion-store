@@ -1,10 +1,11 @@
 import React from 'react';
+import { Router } from './Router';
 import { GlobalStyle } from './styles/global';
 
 export const App: React.FC = () => {
   return (
     <>
-      <h1>Template inicial</h1>
+      <Router />
       <GlobalStyle />
     </>
   );
